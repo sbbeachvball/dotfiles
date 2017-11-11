@@ -1,0 +1,34 @@
+# git aliases
+alias gs='git status'
+alias gd='git diff'
+alias gco='git commit'
+alias gpull='git pull'
+alias gpush='git push'
+alias gull='git pull'
+alias gush='git push'
+
+# misc aliases
+alias df='df -h'
+alias h='history'
+alias ls='ls -AF --color'
+alias ll='ls -l'
+alias lz='ll -Z'
+alias lss='ll -s'
+alias lsh='ll -sh'
+alias hwiki='history | cut -c23-'
+alias hwikili="history | cut -c23- | sed -e 's/^/*/'"
+
+# alias dt
+# want dt (dtop?) to be aliased to different things depending on system.
+alias dtopl='ssh fablio-yosemite.local'
+alias dtop='ssh fablio-mini'
+alias mini='ssh fablio-mini'
+
+# cd aliases - might want/need to be host dependent
+alias cdv='cd /var/www/vhosts'
+alias cdu='cd /var/www/vhosts/default/aaron/usyvl'
+
+command -v psg >/dev/null 2>&1
+if [ $? -ne 0 ]; then
+    function psg(){ [ $# -eq 0 ] && ps ax ||  for a in $*; do ps -ax | grep -i $1 | grep -v grep; done }
+fi
