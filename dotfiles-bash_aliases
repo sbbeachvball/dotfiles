@@ -1,3 +1,15 @@
+export OS_TYPE="`uname -s`"
+case $OS_TYPE in
+    Linux)
+        alias ls='ls -AF --color'
+        ;;
+    Darwin)  
+        export CLICOLOR=1
+        export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx 
+        alias ls='ls -AF' 
+        ;;
+esac
+
 # git aliases
 alias gs='git status'
 alias gd='git diff'
@@ -10,7 +22,7 @@ alias gush='git push'
 # misc aliases
 alias df='df -h'
 alias h='history'
-alias ls='ls -AF --color'
+#alias ls='ls -AF --color'
 alias ll='ls -l'
 alias lz='ll -Z'
 alias lss='ll -s'
