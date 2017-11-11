@@ -1,9 +1,9 @@
 PATH="${PATH}:~/bin:."
 export PATH
 
-[ -f ~/dotfiles/dotfiles-bashrc ] && . ~/dotfiles/dotfiles-bashrc
-[ -f ~/dotfiles/dotfiles-bash_aliases ] && . ~/dotfiles/dotfiles-bash_aliases
+f=~/dotfiles/dotfiles-bashrc;       [ -f $f ] && . $f 
+f=~/dotfiles/dotfiles-bash_aliases; [ -f $f ] && . $f 
 
 # provisions for local files to override
-[ -f ~/.bash_aliases ] && . ~/.bash_aliases
-[ -f ~/.bashrc.local ] && . ~/.bashrc.local
+f=~/.bash_aliases; [ -f $f ] && . $f 
+f=~/.bashrc.local  [ -f $f ] && . $f 
