@@ -3,7 +3,7 @@ f=~/.bash_profile.local; [ -f $f ] && . $f
 
 ds=`date +'%Y%m%d'`
 IP=`echo "$SSH_CLIENT" | cut -d' ' -f1`
-echo "$IP" > ~/.lastIP
-echo "$ds $IP" >> ~/.lastIPs
+[ -n "$IP" ] && echo "$IP" > ~/.lastIP
+[ -n "$IP" ] && echo "$ds $IP" >> ~/.lastIPs
 
 f=~/.bashrc; [ -f $f ] && . $f 
