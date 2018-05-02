@@ -15,37 +15,31 @@
 * SourceTree - by Atlassian - sourcetreeapp.com
 
 ## OpenSource Apps
-* jEdit - Sourceforge
 * Atom
+  * customization
+    * Settings -> Install 
+      * sublime-style-column-selection
+* jEdit - Sourceforge
 
 ## Command Line Utilities
+### Homebrew
 * rsync-3.x
 * wget
 * pdftotext - Xpdf and/or poppler
 * exiftool - Paul Harvey
 * ImageMagick - convert
-* node.js - node.js
-* compass
 * ffmpeg - video editing tool
 * apngasm - animated png assembler
+
+### Other
+* node.js, npm
+* compass - ruby based
 
 ## Critical Bits
 * ~/Library/StickiesDatabase
 * ~/Library/Application Support
 * ~/Sites/sites
 * Keychain???
-
-## ae processing
-* cataloging
-  * get total count before hand?
-  * estimate finish?
-  * convert PICT, GIF? to other image format (convert)
-  * remove RSRC files?
-  * what about ZIP files?  Should I unpack them?
-  * store vids/pics in different locations (images)
-  * ASF, AVI video?
-  * Have some DV files as well from fixing, can likely dump now.
-  * extract images from PDF using XPdf - pdfimages
 
 ## Hardware
 ### Apple Mac Pro 2008
