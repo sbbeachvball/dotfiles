@@ -20,6 +20,7 @@
     * Settings -> Install 
       * sublime-style-column-selection
 * jEdit - Sourceforge
+* Handbrake - video rendering
 
 ## Command Line Utilities
 ### Homebrew
