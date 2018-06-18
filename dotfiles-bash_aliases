@@ -18,6 +18,8 @@ alias gpull='git pull'
 alias gpush='git push'
 alias gull='git pull'
 alias gush='git push'
+alias gru='git remote update'
+alias grvu='git remote -v update'
 
 # misc aliases
 alias df='df -h'
@@ -44,3 +46,7 @@ command -v psg >/dev/null 2>&1
 if [ $? -ne 0 ]; then
     function psg(){ [ $# -eq 0 ] && ps ax ||  for a in $*; do ps -ax | grep -i $1 | grep -v grep; done }
 fi
+
+alias scl='screen -ls'
+function scs() { screen -S $1 ; }
+function scr() { screen -r $1 ; }
