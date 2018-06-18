@@ -1,3 +1,18 @@
+## Seup prompt
+# uncolorized version
+# export PS1='\h:\w[\!]\$ '
+## color codes
+# 0 reset/normal
+# 29 red (maybe bold red)
+# 30 light gray (or maybe a light purple)
+# 31 red
+# 32 green
+# 33 yellow (or possibly bold)
+# 34 blue
+# 35 magenta
+# 36 cyan
+# 37 white
+# printf '\e[1;38;5;125mHello There\e[0m\n'   # to test colors
 export PS1='\[\e[1;38;5;110m\]\h\[\e[0m\]:\w[\[\e[1;36m\]\!\[\e[0m\]]\$ '
 export PROMPT_COMMAND='echo -ne "\033]0;${HOSTNAME%%.*}:${PWD/#$HOME/~}\007"'
 
@@ -33,4 +48,4 @@ buildPaths(){
     export LD_LIBRARY_PATH
 }
 
-buildPaths ~/dotfiles ~/ /eri ~/.brew /usr/local /opt 
+buildPaths ~/dotfiles ~/ /eri ~/.brew /usr/local /opt /opt/sw /opt/foss
