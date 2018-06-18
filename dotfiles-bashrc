@@ -50,4 +50,4 @@ buildPaths(){
 
 buildPaths ~/dotfiles ~/ /eri ~/.brew /usr/local /opt /opt/sw /opt/foss
 
-pth=/usr/local/lib/site-python; [ -d $pth ] && export PYTHONPATH=$pth
+p=/usr/local/lib/site-python; [ -d $p ] && export PYTHONPATH=$p
