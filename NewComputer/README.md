@@ -42,6 +42,10 @@
 * ~/Sites/sites
 * Keychain???
 
+## Server Side Goodies
+* mdwiki - http://dynalon.github.io/mdwiki/#!index.md - neat little markdown file wiki type setup
+* mediawiki - (http://mediawiki.org) - the original 
+
 ## Hardware
 ### Apple Mac Pro 2008
 Still using this system as of 2016-05, although hoping to replace it with a mac mini soon(ish).
