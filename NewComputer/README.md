@@ -13,6 +13,7 @@
 * Mail ActOn
 * Quicken 2007
 * SourceTree - by Atlassian - sourcetreeapp.com
+* QIF2CSV - https://www.propersoft.net/download/qif2csv - havent tried this yet, but interested
 
 ## OpenSource Apps
 * Atom
