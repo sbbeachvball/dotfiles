@@ -48,7 +48,7 @@
 * mediawiki - (http://mediawiki.org) - the original 
 
 ## Other mission specific tools/topics
-[Quicken Tools/Info](dotfiles/NewComputer/QuickenTools.md)
+[Quicken Tools/Info](QuickenTools.md)
 
 ## Hardware
 ### Apple Mac Pro 2008
