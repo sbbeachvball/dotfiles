@@ -1,3 +1,7 @@
+# Introduction
+Should reorganize this at some point.  Want to change the name of the enclosing directory to docs.
+The docs folder would hold various documents to help setup an environment.
+
 ## Work Reference
 * https://wiki.eri.ucsb.edu/sysadm/OSX_Desktop_Config
 
