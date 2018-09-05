@@ -26,6 +26,7 @@ The docs folder would hold various documents to help setup an environment.
       * sublime-style-column-selection
 * jEdit - Sourceforge
 * Handbrake - video rendering
+* MediaInfo - https://mediaarea.net/en/MediaInfo/Download/Mac_OS
 
 ## Command Line Utilities
 ### Homebrew
@@ -33,6 +34,7 @@ The docs folder would hold various documents to help setup an environment.
 * wget
 * pdftotext - Xpdf and/or poppler
 * exiftool - Paul Harvey
+* media-info - cli interface for MediaInfo
 * ImageMagick - convert
 * ffmpeg - video editing tool
 * apngasm - animated png assembler
