@@ -36,7 +36,8 @@ The docs folder would hold various documents to help setup an environment.
 * exiftool - Paul Harvey
 * media-info - cli interface for MediaInfo
 * ImageMagick - convert
-* ffmpeg - video editing tool
+* ffmpeg - video editing tool - image extraction
+* VLC (gui and cli) - video playback - image extraction
 * apngasm - animated png assembler
 
 ### Other
