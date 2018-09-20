@@ -14,8 +14,9 @@ Assumed that this repo will be cloned into a "dotfiles" folder.
  The install.sh script takes precautions to preserve any existing files (backed up to a date/time stamped version)
 
 ## ToDo
-Should probably add some provisions for 
-figuring out what folder this actually lives in to be able to link everything correctly.
+The install.sh script assumes that the cloned repo lives in "dotfiles":
+* If cloned into a different folder, the script will not work correctly.
+  * Should probably add some provisions for figuring out what folder this actually lives in to be able to link everything correctly.
 
 # Inspiration 
 My inspiration was derived from various others (just some to note are below) 
