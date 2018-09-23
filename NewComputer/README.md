@@ -27,6 +27,7 @@ The docs folder would hold various documents to help setup an environment.
 * jEdit - Sourceforge
 * Handbrake - video rendering
 * MediaInfo - https://mediaarea.net/en/MediaInfo/Download/Mac_OS
+* SoundFlower - https://github.com/mattingalls/Soundflower/releases/tag/2.0b2
 
 ## Command Line Utilities
 ### Homebrew
