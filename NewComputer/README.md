@@ -52,7 +52,7 @@ The docs folder would hold various documents to help setup an environment.
 * Keychain???
 
 ## Settings Config (macOS)
-* System Preferences > General > Close windows when quitting an app
+* System Preferences > General > Close windows when quitting an app: Checked
 * Safari > Preferences > General > Safari opens with : New Window
 
 ## Server Side Goodies
