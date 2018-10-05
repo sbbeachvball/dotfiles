@@ -51,6 +51,10 @@ The docs folder would hold various documents to help setup an environment.
 * ~/Sites/sites
 * Keychain???
 
+## Settings Config (macOS)
+* System Preferences > General > Close windows when quitting an app
+* Safari > Preferences > General > Safari opens with : New Window
+
 ## Server Side Goodies
 * mdwiki - http://dynalon.github.io/mdwiki/#!index.md - neat little markdown file wiki type setup
 * mediawiki - (http://mediawiki.org) - the original 
