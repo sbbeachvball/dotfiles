@@ -55,6 +55,10 @@ The docs folder would hold various documents to help setup an environment.
 * System Preferences > General > Close windows when quitting an app: Checked
 * Safari > Preferences > General > Safari opens with : New Window
 
+## macOS 
+* ```xcode-select --install``` to install devtools (note this is not working as of 10.14 (Mojave)
+* This is to allow building of other tools
+
 ## Server Side Goodies
 * mdwiki - http://dynalon.github.io/mdwiki/#!index.md - neat little markdown file wiki type setup
 * mediawiki - (http://mediawiki.org) - the original 
