@@ -1,4 +1,5 @@
-# Yosemite system has high load at startup and very slow, cpu mostly idle though
+# macOS - Troubleshooting notes
+## Yosemite system has high load at startup and very slow, cpu mostly idle though
 There were some threads that said running fix permissions resolved issues... 
 
 ```ps -eo user,pid,stat,args | grep ' U '```
