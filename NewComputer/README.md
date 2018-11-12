@@ -31,24 +31,21 @@ The docs folder would hold various documents to help setup an environment.
 
 ## Command Line Utilities
 ### Homebrew
-* rsync-3.x
+* rsync - rsync-3.x
 * wget
-* pdftotext - Xpdf and/or poppler
+* xpdf - for pdftotext - Xpdf and/or poppler
 * exiftool - Paul Harvey
 * media-info - cli interface for MediaInfo
 * ImageMagick - convert
 * ffmpeg - video editing tool - image extraction
-* VLC (gui and cli) - video playback - image extraction
 * apngasm - animated png assembler
+* VLC (gui and cli) - video playback - image extraction (not sure how to install this yet)
 
 ```
-brew install rsync
-brew install wget
-brew install xpdf
-brew install exiftool
-brew install ImageMagick
-brew install ffmpeg
-brew install apngasm
+for bottle in rsync wget xpdf exiftool ImageMagick ffmpeg apngasm media-info; do
+    echo "Install brew package: $bottle"
+    brew install $bottle
+done
 ```
 
 ### Other
