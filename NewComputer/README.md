@@ -48,7 +48,7 @@ The docs folder would hold various documents to help setup an environment.
 * VLC (gui and cli) - video playback - image extraction (not sure how to install this yet)
 
 ```
-for bottle in rsync wget xpdf exiftool ImageMagick ffmpeg apngasm media-info; do
+for bottle in rsync wget xpdf exiftool ImageMagick ffmpeg apngasm media-info handbrake; do
     echo "Install brew package: $bottle"
     brew install $bottle
 done
