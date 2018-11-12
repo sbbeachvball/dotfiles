@@ -41,6 +41,16 @@ The docs folder would hold various documents to help setup an environment.
 * VLC (gui and cli) - video playback - image extraction
 * apngasm - animated png assembler
 
+```
+brew install rsync
+brew install wget
+brew install xpdf
+brew install exiftool
+brew install ImageMagick
+brew install ffmpeg
+brew install apngasm
+```
+
 ### Other
 * node.js, npm
 * compass - ruby based
