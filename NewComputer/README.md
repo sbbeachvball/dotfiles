@@ -6,7 +6,13 @@ The docs folder would hold various documents to help setup an environment.
 * https://wiki.eri.ucsb.edu/sysadm/OSX_Desktop_Config
 
 ## Commercial Apps
-* SnapZ X Pro - Ambrosia
+* Screen Recording Utility
+  * SnapZ X Pro - Ambrosia - not sure this is supported past Sierra (10.12)
+  * Jing, Camtasia and SnagIt - possible replacements from techsmith, need to scope out
+  * monosnap
+  * skitch
+  * screenflow
+  * lightshot
 * WireTap Studio - Ambrosia
 * OmniGraffle
 * Hear
