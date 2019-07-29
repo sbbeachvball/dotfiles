@@ -30,6 +30,8 @@ The docs folder would hold various documents to help setup an environment.
   * customization
     * Settings -> Install 
       * sublime-style-column-selection
+    * atm install sublime-style-column-selection
+    * atm install unsaved-changes
 * jEdit - Sourceforge
 * Handbrake - video rendering
 * MediaInfo - https://mediaarea.net/en/MediaInfo/Download/Mac_OS
