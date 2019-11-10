@@ -13,6 +13,8 @@ The docs folder would hold various documents to help setup an environment.
   * skitch
   * screenflow
   * lightshot
+  * Snagit
+  * Capto
 * WireTap Studio - Ambrosia
 * OmniGraffle
 * Hear
