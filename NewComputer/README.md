@@ -26,6 +26,9 @@ The docs folder would hold various documents to help setup an environment.
 * Quicken 2007
 * SourceTree - by Atlassian - sourcetreeapp.com
 * QIF2CSV - https://www.propersoft.net/download/qif2csv - havent tried this yet, but interested
+* Apple Developer Tools
+** sudo xcode-select --install
+** launches a GUI
 
 ## OpenSource Apps
 * Atom
