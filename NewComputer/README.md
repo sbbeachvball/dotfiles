@@ -110,4 +110,7 @@ Disks:
 * Fablio-SL - 0.5T
   * ae
 
+## Other Misc goodies
+* ```defaults write com.apple.Safari IncludeInternalDebugMenu 1``` - Enables the Safari Developer Debug menu - which allows ability to see PID of safari windows/tabs
+
 
